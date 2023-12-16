@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>580</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>605</width>
+      <height>515</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="allDataViewButton">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>425</y>
+      <width>150</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+    background-color: #4CAF50;
+    border: 1px solid #45a049;
+    color: #ffffff; 
+    padding: 5px 10px;
+}
+
+QPushButton hover {
+    background-color: #45a049;
+    color: #ffffff;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Вывести все</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="filterDataButton">
+    <property name="geometry">
+     <rect>
+      <x>57</x>
+      <y>530</y>
+      <width>125</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #337ab7;
+    border: 1px solid #2e6da4;
+    color: #ffffff;
+    padding: 5px 10px;
+}
+
+QPushButton hover {
+    background-color: #2e6da4; 
+    color: #ffffff; 
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Курс &gt; 2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="filterDataButten2">
+    <property name="geometry">
+     <rect>
+      <x>239</x>
+      <y>530</y>
+      <width>125</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #337ab7;
+    border: 1px solid #2e6da4;
+    color: #ffffff;
+    padding: 5px 10px;
+}
+
+QPushButton hover {
+    background-color: #2e6da4; 
+    color: #ffffff; 
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Курс = 2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Add">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>210</y>
+      <width>150</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+    background-color: #5bc0de;
+    border: 1px solid #46b8da;
+    color: #ffffff;
+    padding: 5px 10px;
+}
+
+QPushButton hover {
+    background-color: #46b8da;
+    color: #ffffff;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Добавить запись</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Rem">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>350</y>
+      <width>150</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #ff6666;
+    border: 1px solid #ff3333;
+    color: #ffffff;
+    padding: 5px 10px;
+}
+
+QPushButton hover {
+    background-color: #ff3333; 
+    color: #ffffff; 
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Удалить запись</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_Name">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>25</y>
+      <width>150</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>0</y>
+      <width>150</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Имя</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_Uni">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>75</y>
+      <width>150</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>50</y>
+      <width>150</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Университет</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>100</y>
+      <width>150</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Курс</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_faculty">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>175</y>
+      <width>150</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>150</y>
+      <width>150</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Факультет</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_course">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>125</y>
+      <width>150</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+    <property name="maximum">
+     <number>5</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sort_Button">
+    <property name="geometry">
+     <rect>
+      <x>421</x>
+      <y>530</y>
+      <width>125</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #337ab7;
+    border: 1px solid #2e6da4;
+    color: #ffffff;
+    padding: 5px 10px;
+}
+
+QPushButton hover {
+    background-color: #2e6da4; 
+    color: #ffffff; 
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Сортировка</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
